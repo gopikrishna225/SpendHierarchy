@@ -1,0 +1,17 @@
+// The Round Table
+digraph SpendAnalysis {
+	node [shape=box]
+	Y [label="Spend Analysis" fillcolor=yellow]
+	a [label="Non Contract"]
+	b [label=2015]
+	A [label=1]
+	C [label=2]
+	A -> 20
+	C -> 10
+	20 -> 371307.89
+	10 -> 495578.87
+	Y -> a
+	a -> b
+	b -> A
+	b -> C
+}

@@ -1,0 +1,9 @@
+digraph tree {
+    "0x1bbbbbd7c70" [shape=box,label="GASKET, PRE CUT"];
+    "0x1bbbbb34220" [shape=box,label="FLANGE RATING"];
+    "0x1bbbbb34100" [shape=box,label="LB/IN2"];
+    "0x1bbbbb34910" [shape=box,label="LB"];
+    "0x1bbbbbd7c70" -> "0x1bbbbb34220";
+    "0x1bbbbb34220" -> "0x1bbbbb34100";
+    "0x1bbbbb34220" -> "0x1bbbbb34910";
+}

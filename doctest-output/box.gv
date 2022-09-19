@@ -1,0 +1,12 @@
+// The Round Table
+digraph box {
+	node [color=yellow shape=box]
+	A [label="King Arthur"]
+	B [label="Sir Bedevere the Wise"]
+	L [label="Sir Lancelot the Brave"]
+	k [label="Sir Lancelot the Brave"]
+	A -> B
+	A -> L
+	L -> K
+	B -> L [constraint=false]
+}
